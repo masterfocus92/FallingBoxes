@@ -19,28 +19,16 @@ public class GameManager : MonoBehaviour
 
     static public float TimeSinceLevelStart
     {
-        get
-        {
-            return timeSinceLevelStart;
-        }
+        get { return timeSinceLevelStart;}
 
-        set
-        {
-            timeSinceLevelStart = value;
-        }
+        set { timeSinceLevelStart = value;}
     }
 
     static public float GravityScale
     {
-        get
-        {
-            return gravityScale;
-        }
+        get { return gravityScale;}
 
-        set
-        {
-            gravityScale = value;
-        }
+        set { gravityScale = value;}
     }
 
 
